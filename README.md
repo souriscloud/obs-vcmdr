@@ -1,4 +1,6 @@
-# obs-vcmdr
+# obs-vcmdr | VueJS App for controling OBS using OBS-WebSocket plugin.
+
+using `obs-websocket-js` library
 
 ## Project setup
 ```
@@ -20,5 +22,10 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Changelog
+### 0.1-alpha
+- BoostrapVue
+- Connect & Disconnect (on leaving app, auto-disconnect)
+- Switch scenes
+- Refresh scenes
+- Active scene indication
